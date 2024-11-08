@@ -1,0 +1,16 @@
+/* здесь подключите шрифты */
+@font-face {
+  font-family: "Actay Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/actay-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Actay Wide Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../../fonts/actaywide-bold.woff2") format("woff2");
+  font-display: swap;
+}

@@ -1,0 +1,32 @@
+.page__body {
+  position: relative;
+  background-image:
+  image-set(
+    url("../../images/mobile-background@1x.webp") type("image/webp") 1x,
+    url("../../images/mobile-background@2x.webp") type("image/webp") 2x,
+    url("../../images/mobile-background@1x.png") type("image/png") 1x,
+    url("../../images/mobile-background@2x.png") type("image/png") 2x
+  );
+  background-size: cover;
+
+  @media (min-width: 768px) {
+    background-image:
+      image-set(
+        url("../../images/desktop-background@1x.webp") type("image/webp") 1x,
+        url("../../images/desktop-background@2x.webp") type("image/webp") 2x,
+        url("../../images/desktop-background@1x.png") type("image/png") 1x,
+        url("../../images/desktop-background@2x.png") type("image/png") 2x
+      );;
+  }
+}
+
+.page__overlay {
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+  z-index: 2;
+}
